@@ -5,8 +5,9 @@ var options = {
   path : "/"
 };
 
-var callback = function() {
+var callback = function(response) {
   console.log("In response handler callback!");
+  console.log(response);
 }
 
 console.log("I'm about to make a request!");
